@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ date 
+
+ echo "hello $USER!"
+
+ echo "Скрипт работает из директории:$(pwd)"
+
+ echo "Количество процессов bioset: $(ps -ef | grep bioset | grep -v grep | wc -l)"
+
+ ls -la /etc/passwd | awk '{print $1}'

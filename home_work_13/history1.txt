@@ -1,0 +1,11 @@
+  781  cd /opt/210225-ptm/schwab/
+  782  ls -l   
+  783  touch task_schwab.sh
+  784  ls -l
+  785  nano task_schwab.sh
+  786  chmod u+x task_schwab.sh
+  787  ls -l   
+  788  crontab -e
+  789  ls -l
+  790  crontab -e
+  791  cat history

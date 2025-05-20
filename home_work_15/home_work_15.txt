@@ -1,0 +1,20 @@
+#!/bin/bash
+ 
+        for i in {1..10}; do
+                date +"%H:%M:%S"
+                sleep 2
+        done
+ps -ef | tail +2 | wc -l
+ 
+cat /proc/cpuinfo
+ 
+cat /etc/os-release | grep PRETTY_NAME | sed 's&PRETTY_&&'
+ 
+cat /etc/os-release | grep PRETTY_NAME | sed 's&PRETTY_NAME=&&'
+ 
+        for j in {50..100}; do
+                touch "$j.txt"
+                sleep 1
+        done
+ 
+echo "Done"
