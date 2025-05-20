@@ -1,0 +1,33 @@
+   0 vi /tmp/file.txt
+   1 df -h
+   2 df -h | head -n 3 >> /tmp/file.txt
+   3 cat /tmp/file.txt 
+   4 ls -la /tmp
+   5 chmod g+wx /tmp/file.txt
+   6 chmod o-rwx /tmp/file.txt
+   7 ls -la /tmp
+   8 touch myfirstbashscript.sh
+   9 ls -la
+  10 chmod +x myfirstbashscript.sh 
+  11 ls -la
+  12 vi myfirstbashscript.sh 
+  13 env
+  14 export USER=wjatscheslaw
+  15 env
+  16 vi myfirstbashscript.sh 
+  17 cat myfirstbashscript.sh >> /tmp/file.txt
+  18 cat /tmp/file.txt 
+  19 ./myfirstbashscript.sh 
+  20 nano myfirstbashscript.sh 
+  21 ls -la
+  22 cat myfirstbashscript.sh 
+  23 cat /tmp
+  24 cat /tmp/file.txt
+  25 nano myfirstbashscript.sh 
+  26 cat myfirstbashscript.sh 
+  27 cat myfirstbashscript.sh >> /tmp/file.txt 
+  28 cat /tmp/file.txt 
+  29 ./myfirstbashscript.sh 
+  30 history 
+  31 ./myfirstbashscript.sh 
+  32 history > /tmp/history.txt && export_file /tmp/history.txt
